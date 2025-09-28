@@ -26,7 +26,6 @@ Click below to launch this repo in Gitpod:
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sahu-suraj/lambdatestplaywright102)
 
 
-[<img alt="Run in Gitpod" width="200 px" align="center" src="images/Gitpod.svg" />](https://hyperexecute.lambdatest.com/hyperexecute/jobs?type=gitpod&framework=VanillaJS&frameworkType=PlayWright)
 ---
 <!---If logged in, it will be redirected to Gitpod editor in new tab where current tab will show hyperexecute dashboard.
 
