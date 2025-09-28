@@ -13,7 +13,7 @@ tasks:
   - name: Setup LT creds
     command: |
       export LT_USERNAME=surajsahu124
-      export LT_ACCESS_KEY=yJYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
+      export LT_ACCESS_KEY=JYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
       
     init: |
       echo "Performing test"
