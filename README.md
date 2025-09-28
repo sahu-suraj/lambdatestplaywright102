@@ -16,8 +16,15 @@ To know more about how HyperExecute does intelligent Test Orchestration, do chec
 
 Follow the below steps to run Gitpod button:
 
-1. Click '**Open in Gitpod**' button (You will be redirected to Login/Signup page).
-2. Login with Lambdatest credentials and it will be redirected to Gitpod editor in new tab and current tab will show hyperexecute dashboard.
+<!-- 1. Click '**Open in Gitpod**' button (You will be redirected to Login/Signup page).
+2. Login with Lambdatest credentials and it will be redirected to Gitpod editor in new tab and current tab will show hyperexecute dashboard. -->
+
+# Lambdatest Playwright Tests
+
+Click below to launch this repo in Gitpod:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/sahu-suraj/lambdatestplaywright102)
+
 
 [<img alt="Run in Gitpod" width="200 px" align="center" src="images/Gitpod.svg" />](https://hyperexecute.lambdatest.com/hyperexecute/jobs?type=gitpod&framework=VanillaJS&frameworkType=PlayWright)
 ---
