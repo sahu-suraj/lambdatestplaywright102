@@ -9,6 +9,7 @@ const config = {
     viewport: null
   },
   workers: 1,
+  reporter: [['html', { open: 'never' }]],
   projects: [
     {
       name: 'chrome:latest@lambdatest',

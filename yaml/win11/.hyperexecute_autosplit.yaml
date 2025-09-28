@@ -20,4 +20,13 @@ testDiscovery:
   command: grep -lr 'describe' tests
 testRunnerCommand: npx playwright test $test
 
-jobLabel: [playwright-VanillaJS, win11, autosplit] 
+jobLabel: [playwright-VanillaJS, win11, autosplit]
+env:
+  LT_USERNAME: ${{.secrets.LT_USERNAME}}
+  LT_ACCESS_KEY: ${{.secrets.LT_ACCESS_KEY}} 
+
+report: true
+partialReports:
+  frameworkName: playwright
+  location: playwright-report
+  type: html
