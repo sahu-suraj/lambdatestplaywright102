@@ -17,5 +17,5 @@ tasks:
       
     init: |
       echo "Performing test"
-      ./hyperexecute --config yaml/win11/.hyperexecute_autosplits.yaml --verbose --download-artifacts --force-clean-artifacts
+      ./hyperexecute --config yaml/win11/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
       echo "Test completion"
