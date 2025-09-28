@@ -20,7 +20,7 @@ tasks:
   #     ./hyperexecute --config yaml/win11/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
   #     echo "Test completion"
 
-  -name: Setup & Run HyperExecute
+    -name: Setup & Run HyperExecute
     command: |
       echo "Performing test"
       
