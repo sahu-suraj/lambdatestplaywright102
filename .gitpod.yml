@@ -5,10 +5,10 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: Get Core & Configure
-    before: |
-      wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
-      chmod u+x hyperexecute
+  # - name: Get Core & Configure
+  #   before: |
+  #     wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
+  #     chmod u+x hyperexecute
 
   # - name: Setup LT creds
   #   command: |
@@ -20,13 +20,19 @@ tasks:
   #     ./hyperexecute --config yaml/win11/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
   #     echo "Test completion"
 
-  - name: Run HyperExecute Tests
+  -name: Setup & Run HyperExecute
     command: |
       echo "Performing test"
-      # Set LT credentials here
+      
+      # Download HyperExecute CLI
+      wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
+      chmod u+x hyperexecute
+
+      # Set LT credentials
       export LT_USERNAME=surajsahu124
       export LT_ACCESS_KEY=JYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
 
       # Run HyperExecute
       ./hyperexecute --config yaml/win11/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
+
       echo "Test completion"
