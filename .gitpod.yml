@@ -9,8 +9,13 @@ tasks:
     before: |
       wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
       chmod u+x hyperexecute
+
+  - name: Setup LT creds
+    command: |
+      export LT_USERNAME=surajsahu124
+      export LT_ACCESS_KEY=yJYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
       
     init: |
       echo "Performing test"
-      ./hyperexecute --user=$LT_USERNAME --key=$LT_ACCESS_KEY --config yaml/win/.hyperexecute_autosplits.yaml --download-artifacts --force-clean-artifacts
+      ./hyperexecute --config yaml/win11/.hyperexecute_autosplits.yaml --verbose --download-artifacts --force-clean-artifacts
       echo "Test completion"
