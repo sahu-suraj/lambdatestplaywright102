@@ -13,7 +13,7 @@ tasks:
 
       # Set LT credentials
       export LT_USERNAME=sahusuraj4292
-      export LT_ACCESS_KEY=JsLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm
+      export LT_ACCESS_KEY=sLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm
 
       # Run HyperExecute
       ./hyperexecute --config yaml/linux/.hyperexecute_autosplits.yaml --download-artifacts --force-clean-artifacts
