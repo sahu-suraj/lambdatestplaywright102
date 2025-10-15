@@ -7,12 +7,12 @@ const capabilities = {
   'browserName': 'Chrome', // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
   'browserVersion': 'latest',
   'LT:Options': {
-    'platform': process.env.HYPEREXECUTE_PLATFORM,
+    'platformName': process.env.HYPEREXECUTE_PLATFORM || 'Windows 11', // ✅ Fixed key (was 'platform')
     'build': 'Playwright HyperExecute Build',
     'name': 'Playwright HyperExecute Test',
-    'user': process.env.LT_USERNAME,
-    'accessKey': process.env.LT_ACCESS_KEY,
-    // 'network': true,
+    'user': 'sahusuraj4292',
+    'accessKey': 'sLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm',
+    'network': true,
     'video': true,
     'console': true
   }
