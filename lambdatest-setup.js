@@ -11,7 +11,7 @@ const capabilities = {
     'build': 'Playwright HyperExecute Build',
     'name': 'Playwright HyperExecute Test',
     'user': 'sahusuraj4292',
-    'accessKey': 'JsLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm',
+    'accessKey': 'sLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm',
     'network': true,
     'video': true,
     'console': true
