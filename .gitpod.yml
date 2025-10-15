@@ -16,7 +16,7 @@ tasks:
       export LT_ACCESS_KEY=JYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
 
       # Run HyperExecute
-      ./hyperexecute --config yaml/win11/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
+      ./hyperexecute --config yaml/linux/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
 
 
       
