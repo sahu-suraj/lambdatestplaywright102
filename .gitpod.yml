@@ -12,11 +12,11 @@ tasks:
       chmod u+x hyperexecute
 
       # Set LT credentials
-      export LT_USERNAME=surajsahu124
-      export LT_ACCESS_KEY=JYvphyRIMkzZI44wLeVZB3PHOSKcP7oqdkFYSQccX8YLShY6vx
+      export LT_USERNAME=sahusuraj4292
+      export LT_ACCESS_KEY=JsLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm
 
       # Run HyperExecute
-      ./hyperexecute --config yaml/linux/.hyperexecute_autosplit.yaml --download-artifacts --force-clean-artifacts
+      ./hyperexecute --config yaml/linux/.hyperexecute_autosplits.yaml --download-artifacts --force-clean-artifacts
 
 
       
