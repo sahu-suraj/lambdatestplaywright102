@@ -10,8 +10,8 @@ const capabilities = {
     'platformName': process.env.HYPEREXECUTE_PLATFORM || 'Windows 11', 
     'build': 'Playwright HyperExecute Build',
     'name': 'Playwright HyperExecute Test',
-    'user': 'sahusuraj4292',
-    'accessKey': 'sLzh3dkbNs7zLOzrcprQoa86Ui9plCa2V421ZNVOJbIfyoOHdm',
+    'user': '',//Add TestMUAi username
+    'accessKey': '',// Add Access Key
     'network': true,
     'video': true,
     'console': true
